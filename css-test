@@ -1,0 +1,305 @@
+/*
+SCRIBBLE VERSION 1.4.3
+OPEN SOURCE PROJECT UNDER MIT LICENSE
+DESIGNED BY /U/HEWITT. VISIT US AT HTTPS://VOAT.CO/V/SCRIBBLE
+*/
+
+/*-------------------------------------------------------------------
+--------- YOU DON'T NEED TO CHANGE ANYTHING IN THIS SECTION ---------
+---------- WHEN A NEW UPDATE IS RELEASED, REPLACE THE NEXT ----------
+---------- SECTION ENTIRELY. ANY CUSTOM CSS SHOULD BE DONE ----------
+--------- BELOW THIS CORE GROUPING OF CSS RULES. THANK YOU. ---------
+-------------------------------------------------------------------*/
+
+.pagename a{color:#fff}#header{height:180px;background-size:cover;background-repeat:no-repeat;background-position:50% 50%;background-color:#0A7285}.pagename{display:block;position:absolute;top:-104px;margin:0;width:100%;text-align:center}.pagename a{font-size:50px;line-height:105px;color:#fff!important}.pagename a:hover{color:#eee}.tabmenu li a{padding:4px 6px}.side{top:-191px;padding-top:190px;height:calc(100vh - 21px)}.link a.author:hover,a:hover{color:#4A4A4A}.link a.author,.link a.author:visited,a,a:visited{color:#898888}#sr-header-area:hover #sr-bar li a{color:#eee}#sr-bar li a,.sr-list li a{color:#fff}#sr-more-link{top:0;height:24px}#sr-more-link:hover{background:#125A67}span#q-error{display:block}.titlebox h1{font-size:30px}.whoaversename.hover a:first-child:before{content:"/v/"}.btn-whoaverse-paging:active{top:0}.btn-whoaverse-paging,.btn-whoaverse.contribute,.pagination-container .btn-whoaverse-paging a,.side button{border-width:1px;background:#0A7285;border-color:transparent;color:#fff!important}.btn-whoaverse-paging:hover,.btn-whoaverse.contribute:hover,.pagination-container .btn-whoaverse-paging a:hover,.side button:hover{background:#fff;background:-webkit-linear-gradient(top,#fff,#fafafa);background:-moz-linear-gradient(top,#fff,#fafafa);background:-ms-linear-gradient(top,#fff,#fafafa);background:-o-linear-gradient(top,#fff,#fafafa);border:1px solid #ccc!important;color:#000!important}.btn-whoaverse-paging:focus{color:#000!important;background-color:#fff;border:1px solid #0A7285}#sr-header-area{border-bottom:0;background:rgba(255,255,255,.1);color:#fff;font-size:12px;height:24px;line-height:22px;text-transform:none;white-space:nowrap}#sr-header-area .selected a{color:#fff}span.subscribers{display:block;margin-top:5px}.minimum-ccp-downvote>p:nth-child(1){display:none}.alert-h1{border-bottom:0;color:#cacaca}.footer:after{content:"Design: Scribble (v1.4.3) for Voat - /v/Scribble";color:#6d6d6d}.titlebox.submissioninfo>div:nth-child(3){display:none}#moderation_tools{position:relative;margin-bottom:80px}#moderation_tools a[href$="/about/edit/"]:after{content:" ";position:absolute;bottom:-83px;right:0;width:280px;display:block;background:url(http://mh1.co/scribble/alerts/1.4.3.png) 50% no-repeat;height:73px}.promoted{background:#0A7285;border:1px solid #0A7285;font-weight:700}.comment a.moderator.author,.comment a.submitter.author{background-color:#0a7285;padding:3px 16px;border-radius:4px;color:#fff!important;font-weight:700}.comment a.moderator.author{background-color:#3fbf4c}.markdownEditorSubMenu{margin-top:-4px;margin-bottom:11px;border:1px solid #d8d8d8;border-radius:3px}.commenttextarea{min-height:150px}.whoaSubscriptionMenu li ul{z-index:1000;margin-top:-8px;min-width:60%}.whoaSubscriptionMenu li ul a{padding:10px 6px!important}.link .flair{font-size:x-small;margin-top:-1px;background-color:#0A7285;display:none;padding:1px 8px;border-radius:3px;color:#fff;font-weight:700;border:0}.link .flair[title]{display:inline-block}.drop-arrow{border-color:#fff transparent transparent}@media (min-width:871px){#container,#header-banner{max-width:98%}#container{position:relative;top:-175px;z-index:900;margin-bottom:-175px}#header-banner{top:-20px}img#header-img{visibility:hidden;width:71px;margin:47px 0 10px;vertical-align:unset;position:relative;left:-12px}#header-banner>a:after{content:" ";background:url(https://i.imgur.com/NK49svv.png);// VOAT ICON display:block;height:71px;width:71px;position:absolute;top:15px;left:0}#header{height:290px;position:static}#header-container{background:0 0;border-bottom:0;border-top:0;top:44px;height:58px;position:absolute;width:100%;z-index:1}.pagename{position:static;display:inline-block;margin-left:auto;width:auto}.pagename a{font-size:50px;line-height:71px}.form-control{height:40px;line-height:40px}.btn-whoaverse{padding:10px 12px}#header-account{top:27px;font-size:12px}#header-account a{color:#fff!important}.tabmenu{line-height:81px}.tabmenu li a{padding:10px 28px}.tabmenu li.selected a{padding:10px 28px;border:0;border-bottom:5px solid rgba(246,246,246,.34902);border-radius:0;background:0 0;color:#fff}.tabmenu li.disabled a.contribute{background:rgba(255,255,255,0);border:0;padding:10px 19px 12px;color:#fff;font-weight:700;}.tabmenu li.disabled a{color:#fff}.tabmenu li.disabled a.contribute:hover,.tabmenu li.disabled a:hover,.tabmenu li.selected a.contribute,.tabmenu li.selected a.contribute:hover,.tabmenu li.selected a:hover{background:rgba(246,246,246,1);color:#444;border-width:0 1px;border-radius:3px;border-color:transparent}.tabmenu li.selected a.contribute,.tabmenu li.selected a.contribute:hover{padding:10px 19px 12px;font-weight:400}.logged-in,.logged-out{background:rgba(246,246,246,.1);border:0;padding:10px 19px 12px;color:#fff}.side{padding-top:0;height:auto}.titlebox.submissioninfo div:nth-child(6) .h6{text-align:center}.titlebox.submissioninfo div:nth-child(6) .h6:first-child{font-size:0}.titlebox.submissioninfo div:nth-child(6) .h6:first-child b{font-size:64px;display:block}.whoaSubscriptionMenu li ul{min-width:initial}.whoaSubscriptionMenu li ul a{padding:1px 6px!important}.modal-body .col-md-4 input.form-control{line-height:36px}.modal-backdrop.in{display:none}}@media (min-width:871px) and (max-width:1150px){.tabmenu{line-height:149px;right:0;position:absolute}#header-account{top:1px;right:-4px;padding:6px;height:52px}}
+
+/*-------------------------------------------------------------------
+--------- END OF CORE CSS RULES. PLACE YOUR CUSTOM CSS AND ----------
+---------- CSS ADDONS BELOW THIS LINE. LOVE, /v/SCRIBBLE. -----------
+-------------------------------------------------------------------*/
+
+        /*-------------------------------------------------------------------
+        ---------------------- CHANGE BUTTON COLOR AND ----------------------
+        --------------------- HEADER BAR OPACITY VALUE ----------------------
+        -------------------------------------------------------------------*/
+        #sr-header-area {
+                background: rgba(255,255,255,0.25);
+        }
+        .logged-in, .logged-out {
+                background: rgba(255, 255, 255, 0);
+                font-weight: 700;
+        }
+        #header {
+        	background-color: #366b67;
+        }
+        .side button, .btn-whoaverse.contribute, .pagination-container .btn-whoaverse-paging a, .btn-whoaverse-paging {
+                background-color: #366b67;
+        }
+        .pagename a {
+        	color: #ffffff !important;
+        }
+        .btn-whoaverse-paging, .btn-whoaverse.contribute, .pagination-container .btn-whoaverse-paging a, .side button {
+        	color: #ffffff !important;
+        }
+        #sr-bar li a, .sr-list li a {
+        	color: #ffffff;
+        }
+        #sr-header-area .selected a {
+        	color: #ffffff;
+        }
+        #sr-header-area:hover #sr-bar li a {
+                color: #ffffff;
+        }
+        @media (min-width: 871px) {
+        	.tabmenu li.selected a {
+        		color: #ffffff;
+        	}
+        	.tabmenu li.disabled a {
+        		color: #ffffff;
+        	}
+        	.tabmenu li.disabled a.contribute {
+        		color: #ffffff;
+        	}
+        	#header-account a {
+        		color: #ffffff !important;
+        	}
+        }
+
+	/*---------------------------------------------------------------------------------------------------
+	------------------------------ ANNOUNCEMENT ALERT WITH LINKS AND STYLES -----------------------------
+	---------------------------------------------------------------------------------------------------*/
+	.side .titlebox .usertext h6:nth-of-type(1) {
+		font-style: normal;
+		font-size: 13px;
+                font-weight: 700;
+                text-align: center;
+		position: absolute;
+		top: -5px;
+		background-color: #be3d3d;
+		padding: 10px;
+		width: 262px;
+		border-radius: 3px;
+		color: white;
+		font-style: normal;
+                z-index: 1;
+	}
+	.side .titlebox .usertext h6:nth-of-type(1) a {
+		color: #71def4;
+	}
+	@media (max-width: 870px) {
+		.side.show-mobile-sidebar {
+			left: -1px;
+			padding-top: 280px;
+		}
+	}
+	@media (min-width: 871px) {
+		#container {
+			padding-top: 71px;
+		}
+		.side .titlebox .usertext h6:nth-of-type(1) {
+			top: 10px;
+			left: 20px;
+			width: calc(100% - 40px);
+			border-radius: 3px;
+			padding: 8px 20px;
+                        z-index: 1;
+		}
+	}
+
+    /*-------------------------------------------------------------------
+    ---------------------- HEADER BACKGROUND IMAGE ----------------------
+    -------------------------------------------------------------------*/
+    #header { background-image: url('https://samueladams.s3.amazonaws.com/app_assets/barrel-room-banner--en--f7e5ddd3-9c3a-471a-98e5-503983c940f0.jpg'); }
+
+	/*---------------------------------------------------------------------------------------------------
+	------------------------------------------ INCREASE HEIGHT OF HEADER AREA -------------------------------------------
+	---------------------------------------------------------------------------------------------------*/
+	@media (min-width: 871px) {
+		#container {
+			top: -175px;
+			margin-bottom: -175px;
+		}
+		#header-container {
+			top: 44px;
+		}
+	}
+
+	/*---------------------------------------------------------------------------------------------------
+	--------- CHANGE LOGO FROM TEXT TO AN IMAGE - SUGGESTED IMAGE SIZE: 224PX WIDE BY 89PX TALL ---------
+	---------------------------------------------------------------------------------------------------*/
+	.pagename a {
+		background: url('https://i.imgur.com/nzpAPQB.png') 50% no-repeat;
+		width: 224px;
+		font-size: 0;
+	}
+	@media (min-width: 871px) {
+		.pagename a {
+			height: 89px;
+			position: relative;
+			top: 15px;
+			margin: 0 30px 0 20px;
+		}
+	}
+
+
+	/*---------------------------------------------------------------------------------------------------
+	-------------------------------- CHANGE SUBVERSE TITLE TEXT IN SIDEBAR ------------------------------
+	---------------------------------------------------------------------------------------------------*/
+	.whoaversename.hover a:first-child {
+		font-size: 0;
+	}
+	.whoaversename.hover a:first-child:before {
+		content: "/v/FlasksAndFlagons";
+		font-size: 20px;
+	}
+
+	/*--------------------------------------------------------------------------------------------------------------------------
+	---------------------------------------------- CHANGE FLAIR BACKGROUND COLORS ----------------------------------------------
+	------ PLEASE CHANGE THE CLASS NAME (e.g. "flair-meta", "flair-science") TO WHATEVER CLASS NAME YOU GIVE YOUR FLAIRS. ------
+	--------------------------------------------------------------------------------------------------------------------------*/
+	.flair-meta { background-color: #e74c3c !important; }
+	.flair-science { background-color: #27ae60 !important; }
+	.flair-history { background-color: #2980b9 !important; }
+	.flair-geography { background-color: #8e44ad !important; }
+	.flair-movies { background-color: #e67e22 !important; }
+	.flair-video-games { background-color: #16a085 !important; }
+	.flair-other { background-color: #2980b9 !important; }
+
+	/*---------------------------------------------------------------------------------------------------
+	------------------------------- INDIVIDUAL USER FLAIRS POSTS & SIDEBAR ------------------------------
+	--------------------------- CHANGE THE NAME IN THE SELECTOR (/user/Hewitt) --------------------------
+	---------------------------------------------------------------------------------------------------*/
+	#container a[href$="/user/Hewitt"]:after {
+		background: #00c5ff;
+		content: "Test Flair";
+		padding: 2px 4px;
+		position: relative;
+		top: 0px;
+		margin-left: 6px;
+		color: white;
+		border-radius: 3px;
+	}
+
+	/*---------------------------------------------------------------------------------------------------
+	------------------------------ CHANGE THE NAME OF SUBVERSE SUBSCRIBERS ------------------------------
+	---------------------------------------------------------------------------------------------------*/
+	.subscribers .number:after {
+		content: " subscribers.";
+	}
+	.users-online .number:after {
+		content: " users here now.";
+	}
+	.subscribers .word {
+		display: none;
+	}
+	.users-online .word {
+		display: none;
+	}
+
+	/*---------------------------------------------------------------------------------------------------
+	-------------------------------- HIDE CHAT AND ANNOUNCEMENTS SIDEBAR --------------------------------
+	---------------------------------------------------------------------------------------------------*/
+	.spacer.spacersection {
+		display: none;
+	}
+
+	/*---------------------------------------------------------------------------------------------------
+	------------------------ COLLAPSE TABLES IN SIDEBAR, AND EXPAND THEM ON HOVER -----------------------
+	---------------------------------------------------------------------------------------------------*/
+	.usertext-body .md table {
+		width: 100%;
+		box-shadow: none;
+		margin: 0;
+	}
+	.usertext-body .md table thead {
+		border-bottom: 1px solid #ddd;
+	}
+	.usertext-body .md table thead th {
+		padding: 5px 10px;
+		font-size: 16px;
+		position: relative;
+		background-color: rgb(42, 37, 37);
+		color: white;
+		border-color: black;
+	}
+	.usertext-body .md table thead th:after {
+		content: " ";
+		border-width: 7px 7px 0;
+		border-style: solid;
+		border-color: #EBD321 transparent transparent;
+		display: inline-block;
+		height: 0;
+		width: 0;
+		position: absolute;
+		right: 10px;
+		top: 15px;
+	}
+	.usertext-body .md table tbody {
+		display: none;
+	}
+	.usertext-body .md table:hover tbody {
+		display: table-row-group;
+	}
+	.usertext-body .md table td {
+		border: 1px solid black;
+		padding: 0;
+		background-color: rgb(81, 75, 75);
+                color: white;
+	}
+	.usertext-body .md table td a {
+		color: white;
+		display: block;
+		width: 100%;
+		padding: 5px 20px;
+	}
+
+/* HR LINE */
+hr {
+border: 0; 
+height: 1px; 
+background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
+}
+
+/* Body Background */
+body {
+    background: #e4e4e4 none repeat scroll 0% 0%;
+    color: #404040;
+    font: 11px/1.43 Arial,sans-serif;
+    margin: 0px;
+}
+
+/* Padding Adjustments */
+
+/* Padding Adjustments */
+.link {
+    margin: 0px;
+    padding: 20px 0px;
+}
+
+.side {
+    padding-top: 0px;
+    height: auto;
+}
+
+.side .titlebox .usertext h6:nth-of-type(1) {
+    top: -5px;
+    left: 20px;
+    width: calc(100% - 40px);
+    border-radius: 3px;
+    padding: 8px 20px;
+    z-index: 1;
+}
+ /*Night Mode Sidebar Text Color */
+.dark .titlebox {
+    font-size: 12px;
+    width: 100% !important;
+    color: #fff;
+}
+
+.titlebox form.toggle, .leavemoderator {
+    background: none repeat scroll 0% 0%;
+    color: #808080;
+    font-size: smaller;
+    margin: 0px;
+    padding: 5px 0px;
+}
