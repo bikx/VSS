@@ -169,9 +169,9 @@ DESIGNED BY /U/HEWITT. VISIT US AT HTTPS://VOAT.CO/V/SCRIBBLE
 	------------------------------- INDIVIDUAL USER FLAIRS POSTS & SIDEBAR ------------------------------
 	--------------------------- CHANGE THE NAME IN THE SELECTOR (/user/Hewitt) --------------------------
 	---------------------------------------------------------------------------------------------------*/
-	#container a[href$="/user/Hewitt"]:after {
+	#container a[href$="/user/SirPoppycock"]:after {
 		background: #00c5ff;
-		content: "Test Flair";
+		content: "Moderator";
 		padding: 2px 4px;
 		position: relative;
 		top: 0px;
